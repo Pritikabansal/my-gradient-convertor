@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(gradbackgroundimg.avif);
+    background-position: left;
+}
+
+.heading{
+    background-color: rgba(0, 0, 0, 0.514);
+    height: 70px;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    margin-top: 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mainbox{
+    background-color: white;
+    width: 450px;
+    border-radius: 8px;
+    padding: 24px;
+}
+.mainbox .show-gradient-box{
+    height: 250px;
+    width: 100%;
+    border-radius: 8px;
+    background: linear-gradient(to left top, #977DFE, #6878FF); ;
+}
+.mainbox .d-c-box-inner{
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+
+}
+
+.d-c-box-inner p{
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.d-c-box-inner .select-box{
+    border: 1px solid #aaa;
+    padding: 10px 15px;
+}
+.select-box select{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 0.9rem;
+}
+
+.mainbox textarea{
+    width: 100%;
+    padding: 10px 15px;
+    color: #164f58;
+    resize: none;
+    margin-bottom: 20px;
+
+}
+
+.button-box button{
+    padding: 15px 35px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+
+.button-box .refresh-c{
+    background: #797878;
+}
+
+.button-box .copy-code{
+    background: #977DFE;
+    margin-left: 70px;
+}
+
+
+
+@media (max-width: 500px) {
+    .heading {
+        height: 58px;
+  width: 86%;
+    }
+
+   h1{
+    font-size: x-large;
+   }
+   .mainbox{
+    width: 358px;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.button-box button{
+    padding: 15px 23px;
+    font-size: 0.9rem;
+}
+}
+
+@media (min-width:501px) and (max-width:700px)
+{
+    .heading{
+        width: 80%;
+    }
+}

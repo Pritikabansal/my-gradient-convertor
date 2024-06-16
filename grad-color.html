@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gradient Color Generator</title>
+    <link rel="stylesheet" href="grad-color.css">
+    <script src="grad-color.js"></script>
+    <link rel="shortcut icon" type="x-icon" href="logoimg.jpg">
+    <meta name="description"content="Pritika Bansal's '''My Gradient Generator''' shocasing the different color gradient with it's code which helps you to choose your best gradient color" />
+
+</head>
+
+<body>
+<div class="heading"><h1>MY GRADIENT GENERATOR</h1></div>
+    
+    <div class="mainbox">
+        <div class="show-gradient-box"></div>
+
+        <div class="d-c-box"> <!-- //can be adjust -->
+            <div class="d-c-box-inner">
+                <div class="direction-box">
+                    <p>Direction</p>
+                    <div class="select-box">
+                        <select>
+                            <option value="to top">Top</option>
+                            <option value="to right top">Right top</option>
+                            <option value="to right">Right</option>
+                            <option value="to right bottom">Right bottom</option>
+                            <option value="to bottom">Bottom</option>
+                            <option value="to left bottom">Left bottom</option>
+                            <option value="to left">Left</option>
+                            <option value="to left top">Left top</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="color-box">
+                    <p>Colors</p>
+                    <div class="color-input">
+                        <input type="color" value="#5665E9">
+                        <input type="color" value="#A271F8">
+                    </div>
+                </div>
+            </div>
+
+            <textarea class="row" disabled>background: linear-gradient(to left top, #977DFE, #6878FF);</textarea>
+
+            <div class="button-box">
+                <button class="refresh-c">Refresh Colors</button>
+                <button class="copy-code">Copy Code</button>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
